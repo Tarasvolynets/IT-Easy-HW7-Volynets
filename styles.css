@@ -34,72 +34,75 @@ span {
     height: 575px;
     display: flex;
     position: relative;
+
 }
 
-.first__target {
+.box.one {
     width: 137px;
     height: 137px;
     margin-left: 74px;
     margin-top: 68px;
 }
 
-.second__target {
+.box.two {
     width: 42px;
     height: 42px;
     margin-left: 454px;
     margin-top: 47px;
 }
 
-.third__target {
+.box.three {
     width: 51px;
     height: 51px;
     margin-left: 238px;
     margin-top: 337px;
 }
 
-.fourth__target {
+.box.four {
     width: 25px;
     height: 25px;
     margin-left: 91px;
     margin-top: 453px;
 }
 
-.fifth__target {
+.box.five {
     width: 90px;
     height: 90px;
     margin-left: 364px;
     margin-top: 484px;
 }
 
-.sixth__target {
+.box.six {
     width: 90px;
     height: 90px;
     margin-top: 23px;
     margin-left: 730px;
 }
 
-.seventh__target {
+.box.seven {
     width: 83px;
     height: 83px;
     margin-top: 68px;
     margin-left: 1134px;
+
 }
 
-.eighth__target {
+.box.eight {
     width: 42px;
     height: 42px;
     margin-top: 294px;
     margin-left: 1134px;
 }
 
-.ninth__target {
+.box.nine {
     width: 63px;
     height: 63px;
     margin-top: 453px;
     margin-left: 1217px;
+
 }
 
-.tenth__target {
+.box.ten {
     width: 90px;
     height: 90px;
     margin-top: 484px;
@@ -137,6 +140,7 @@ span {
 
 .card__wrapper:hover .btn__remove {
     opacity: 1;
+
 }
 
 .card {
@@ -147,6 +151,7 @@ span {
     position: relative;
     display: flex;
     justify-content: center;
+
 }
 
 .container__card {
@@ -209,4 +214,6 @@ span {
     cursor: pointer;
     opacity: 0;
 }
+
+
 
